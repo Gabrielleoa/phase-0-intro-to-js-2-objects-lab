@@ -1,5 +1,12 @@
+function updateEmployeeWithKeyAndValue (key, value) {
+  const employee = { 
+    name : "Sam",
+    streetAddress: '11 Broadway'
+};
+return employee;
+}
 const employee = {
-    employee,["name"] : "Sam",
+    name : "Sam",
 };
 function updatedEmployeeWithKeyAndValue(employye, key, value) {
     const updateEmployee= { ... employee };
@@ -19,4 +26,4 @@ function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value) {
     delete employee[key];
     return employee;
   }
-  
+
